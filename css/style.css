@@ -1,0 +1,74 @@
+ /*Global*/
+html{
+    font-size:  62.5%;
+    box-sizing: border-box; 
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    font-family: var(--fuenteParrafos);
+    font-size: 1.6rem;
+}
+h1,h4 {
+    font-family: var(--font-family);
+
+    
+}
+h1 {
+    font-size: 5.5vh;
+    overflow-y: hidden;
+    
+}
+h4 {
+    font-size: 2rem;
+    
+}
+
+img {
+max-width: 100%;
+}
+
+.header{
+    width:  100vw;
+    height: 10vh;
+    background-image: url(../recursos/banner.jpg);
+    background-size: cover;
+    overflow-x: hidden;
+
+}
+.header__nombre{ 
+    width: 100vw;
+    height: 10vh;
+    color: var(--blanco);
+    font-size: 2rem;
+    font-weight: 700;   
+    margin-top: 0;
+    overflow-x: hidden;
+}
+.centro {
+     background-color: var(--cafe);
+     text-align: center;
+ 
+}
+
+.contenedor{
+    padding: px;
+    background-color: var(--negro);
+    color: var(--blanco);
+    width: vw;
+    height: vh;
+    text-align: center;
+}
+.boton {
+    display: block;
+    font-family: var(--font-family);
+    color: var(--blanco);
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
